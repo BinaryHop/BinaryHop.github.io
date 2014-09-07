@@ -1,0 +1,38 @@
+html {
+background: url('landscape.jpg') no-repeat;
+background-position: right bottom;
+background-size: cover;}
+
+body {font-family: 'Shadows Into Light', cursive;}
+
+.wrap, html, body{
+        height:100%;
+        margin:0;}
+
+.wrap {display: flex;}
+
+.box {margin:auto;
+background: rgba(255,255,255,.4);
+border-radius: 25px;
+width: 600px;
+padding: 10px 10px;
+border: 2px dashed #000;
+transition-duration:1.3s;
+}
+
+.box:hover {
+border-radius: 20%;
+background: rgba(99,166,219,.7);
+transition-duration:.6s;
+}
+
+.box span {
+font-size:2.5em;
+color: white;
+text-shadow: 1px 1px 7px #000;
+text-align: center;
+display:block;
+}
+
+@media only screen and (max-width: 650px) 
+{.box {width: 85%;}}
