@@ -9,7 +9,10 @@ body {font-family: 'Shadows Into Light', cursive;}
         height:100%;
         margin:0;}
 
-.wrap {display: flex;}
+.wrap {
+	display: flex;
+	display: -webkit-flex;
+}
 
 .box {margin:auto;
 background: rgba(255,255,255,.4);
